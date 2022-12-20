@@ -1,207 +1,215 @@
-*{
+* {
     margin: 0;
     border: 0;
     padding: 0;
 }
 
-html{
+html {
     font-size: 62.5%;
-    
-}
-
-header{
-background-color: rgb(255, 0, 0);
-color: white;
-font-family: Arial;
-width: 100%;
-position: fixed;
-text-shadow: 2px 2px #000;
 
 }
 
-@media(min-width: 320px) and (max-width: 450px){
-    header{
+header {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-family: Arial;
+    width: 100%;
+    position: fixed;
+    text-shadow: 2px 2px #000;
+
+}
+
+@media(min-width: 320px) and (max-width: 450px) {
+    header {
         text-align: center;
-        }
+    }
 
 }
 
-#logo{
-width: 70px;
-height: 50px;
-border-radius: 20px;
-margin-top: 10px;
-margin-left: 10px;
+
+
+h3 {
+    font-size: 3rem;
+    font-family: Arial;
+    margin: 0;
+    padding: 5px;
 }
 
-h3{
-font-size: 1.8rem;
-font-family: Arial;
-margin: 0;
-padding: 5px;
+h4 {
+    font-size: 1.6rem;
+    font-family: Arial;
+    margin: 0;
+    padding-left: 5px;
+    padding-bottom: 5px;
 }
 
-h4{
-font-size: 1rem;
-font-family: Arial;
-margin: 0;
-padding-left: 5px;
-padding-bottom: 5px;
+body {
+    background-color: rgb(255, 255, 224);
 }
 
-body{
-background-color: rgb(255,255,224);
+.container {
+    display: block;
+    background-color: white;
+    width: 95%;
+    box-shadow: 1px 1px 5px rgba(255, 255, 0);
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 138%;
+    min-width: 0px;
+    min-height: 0;
+    margin-top: 40px;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
 }
 
-.container{
-display: block;
-background-color: white;
-width: 95%;
-box-shadow: 1px 1px 5px rgba(255, 255, 0);
-margin: 0 auto;
-max-width: 90%;
-max-height: 138%;
-min-width: 0px;
-min-height: 0;
-margin-top: 40px;
-padding: 10px;
-text-shadow: 1px 1px 1px #fff;
+h5 {
+    font-family: Arial;
+    text-align: center;
+    padding: 1px;
+    font-size: 1.9rem;
 }
 
-h5{
-font-family: Arial;
-text-align: center;
-padding: 1px;
-font-size: 1.9rem;
+button {
+    font-family: Arial;
+    text-align: center;
+    padding: 5px;
+    font-size: 2rem;
+    background-color: rgba(50, 205, 50, 1.0);
+    color: #fff;
+    border: solid;
+    border-radius: 20px;
+    width: 90%;
 }
 
-button{
-font-family: Arial;
-text-align: center;
-padding: 5px;
-font-size: 1.9rem;
-background-color: rgba(50, 205, 50, 1.0);
-color: #fff;
-border: solid;
+footer {
+    font-family: Arial;
+    color: white;
+    background-color: rgba(255, 0, 0);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(255, 0, 0);
+    text-shadow: 2px 2px #000;
 }
 
-footer{
-font-family: Arial;
-color: white;
-background-color: rgba(255,0,0);
-text-align: center;
-padding-top: 5px;
-padding-bottom: 5px;
-background-color: rgba(255,0,0);
-text-shadow: 2px 2px #000;
+p {
+    font-family: Arial;
+    text-align: justify;
+    padding: 5px;
+    font-size: 1.6rem;
 }
 
-p{
-font-family: Arial;
-text-align: justify;
-padding: 5px;
-font-size: 1.6rem;
+h1 {
+    font-family: Arial;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 5rem;
+    color: rgba(255, 0, 0, 1);
+    text-shadow: 2px 2px 3px #000;
 }
 
-h1{
-font-family: Arial;
-text-align: center;
-padding-top: 10px;
-font-size: 2.5rem;
-}
-h2{
-font-family: Arial;
-text-align: center;
-padding-top: 5px;
-padding-left: 5px;
-font-size: 1.5rem;
+@media (min-width: 320px) and(max-width: 450px) {
+    h1 {
+        font-family: Arial;
+        text-align: left;
+        padding-top: 10px;
+        font-size: 3rem;
+        color: rgba(255, 0, 0, 1);
+        text-shadow: 2px 2px 3px #000;
+    }
 }
 
-.txt-footer{
-text-align: center;
-font-family: Arial;
-padding-top: 10px;
-font-size: 1.6rem;
-padding-bottom: 10px;
+h2 {
+    font-family: Arial;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 2rem;
+    color: yellow;
+    text-shadow: 1px 1px 2px #000;
 }
 
-.compre{
-background-color: yellow;
-width: 150px;
-height: 100px;
-position: fixed;
-right: 0;
-text-align: center;
-margin-top: 10%;
-z-index: 1;
-
+.txt-footer {
+    text-align: center;
+    font-family: Arial;
+    padding-top: 10px;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
 }
 
-#grid-container{
-margin-top: 5px;
-background-color: rgba(128, 128, 128, 0.5); 
-}
-
-.grid{
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-grid-gap: 10px;
-max-width: 1200px;
-margin: 0 auto;
-
-}
-
-.grid div{
-background-color: white;
-font-family: Arial;
-text-align: center;
-font-size: 1.6rem;
-padding: 2px;
-padding-bottom: 10px;
-box-shadow: 1px 1px 5px #4339c4;
+.compre {
+    background-color: rgba(255, 255, 0, 0.911);
+    width: 18rem;
+    height: 10rem;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    margin-top: 3%;
+    z-index: 1;
+    border-radius: 30px;
+    border: solid #fff;
+    padding-bottom: 3px;
 
 }
 
-#formulario{
-background-color: rgba(128, 128, 128, 0.5);
-text-shadow: 1px 1px 1px #fff;
-}
+@media (min-width: 320px) and(max-width: 450px) {
 
-.formulario-contato{
-font-family: Arial;
-font-size: 1.8rem;
-padding: 10px;
-text-align: left;
-margin-left: 5%;
-font-weight: bold;
-text-shadow: 1px 1px 1px #fff;
+    .compre {
+        background-color: rgba(255, 255, 0, 0.911);
+        width: 38%;
+        height: 10rem;
+        position: fixed;
+        right: 0;
+        text-align: center;
+        margin-top: 3%;
+        z-index: 1;
+        border-radius: 30px;
+        border: solid #fff;
+        padding-bottom: 3px;
 
-}
-
-input{
-font-family: sans-serif;
-font-size: 1.7rem;
-padding: 5px;
-}
-
-.dados-formulario{
-width: 60%; 
+    }
 
 }
 
-nav{
-
-text-align: center;
-margin-top: 10px;
-font-weight: bold;
-font-family: arial;
-font-size: 1.6rem;
-margin-right: 2%;
-word-spacing: 10px;
+#grid-container {
+    margin-top: 5px;
+    background-color: rgba(128, 128, 128, 0.5);
 }
 
-@media(min-width:320px) and (max-width:450px){
-    nav{
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.grid div {
+    background-color: white;
+    font-family: Arial;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 2px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 5px #4339c4;
+
+}
+
+input {
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    padding: 5px;
+}
+
+.dados-formulario {
+    width: 60%;
+
+}
+
+
+@media(min-width:320px) and (max-width:450px) {
+    nav {
 
         text-align: center;
         margin-top: 10px;
@@ -210,77 +218,39 @@ word-spacing: 10px;
         font-size: 1.6rem;
         margin-right: 2%;
         word-spacing: 15px;
-        }
+    }
 }
 
-a{
-text-decoration: none;
-color: rgb(255, 255, 255);
-transition: all 200ms ease-in-out;
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 200ms ease-in-out;
 }
 
-a:hover{
-color: rgba(100,149,237, 1.0);
 
-}
-
-#enviar{
-background-color: rgba(25, 112, 32, 0.8);
-font-weight: bold;
-border-radius: 50px;
-box-shadow: 3px 3px 3px #4339c4;
-}
-
-#limpar{
-background-color: rgba(112, 50, 25, 0.8);
-font-weight: bold;
-border-radius: 50px;
-box-shadow: 3px 3px 3px #4339c4;
-}
-
-.img-grid{
-    width: 160px;
-    height: 90px;
+.img-grid {
+    width: 22rem;
+    height: 14rem;
     border-radius: 20px;
-    transition: 500ms ease-in-out;
+
 
 }
 
-.texto-grid{
-font-family: Arial;
-font-size: 1.7rem;
-text-align: center;
-font-weight: bold;
+.texto-grid {
+    font-family: Arial;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: bold;
 }
 
-.saiba-mais{
-background-color: rgba(0,0,0);
-font-weight: bold;
-font-size: 1.8rem;
-border-radius: 20px;
-padding: 5px;
+
+.valores {
+    text-align: center;
 
 }
 
-.img-sobre{
-    width: 200px;
-height: 120px;
-border-radius: 20px;
-}
-
-#newtech{
-
-width: 200px;
-height: 200px;
-padding: 50px;
-}
-
-.valores{
-text-align: center;
-
-}
-
-ul, li{
+ul,
+li {
     font-size: 1.6rem;
     font-family: Arial;
     text-align: left;
